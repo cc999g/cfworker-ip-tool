@@ -19,9 +19,9 @@
 - **国外被屏蔽站点**: Google、Facebook、Twitter
 - **实时延迟显示**: 颜色区分延迟质量
 
-### 🚀 网速测试(待完善)
+### 🚀 网速测试
 - **多服务器选择**: Cloudflare、OVH、Speedtest
-- **下载速度测试**: 使用多个备用测速源
+- **下载速度测试**: 使用多个备用测速源（未完善）
 - **实时速度图表**: 使用Chart.js显示速度变化
 - **单位切换**: Mbps、MB/s、Kbps
 - **完整指标**: 下载速度、上传速度、延迟、抖动
@@ -38,3 +38,8 @@
 ```bash
 git clone https://github.com/cc999g/cfworker-ip-tool.git
 cd cfworker-ip-tool
+
+
+![GitHub](https://img.shields.io/github/license/cc999g/cfworker-ip-tool)
+![GitHub last commit](https://img.shields.io/github/last-commit/cc999g/cfworker-ip-tool)
+![GitHub stars](https://img.shields.io/github/stars/cc999g/cfworker-ip-tool?style=social)

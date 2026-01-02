@@ -1,0 +1,23 @@
+{
+  "name": "cfworker-ip-tool",
+  "version": "1.0.0",
+  "description": "双栈IP查询与测速工具 - 基于Cloudflare Workers构建",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "ip",
+    "ipv4",
+    "ipv6",
+    "speedtest",
+    "cloudflare",
+    "workers"
+  ],
+  "author": "cc999g",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
