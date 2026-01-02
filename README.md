@@ -1,4 +1,4 @@
-###### 双栈IP查询与测速工具
+# 双栈IP查询与测速工具
 
 一个基于Cloudflare Workers构建的现代化IP查询与网络诊断工具，支持IPv4/IPv6双栈检测、延迟测试和网速测量。
 
@@ -54,14 +54,17 @@ wrangler login
 创建KV命名空间
 wrangler kv:namespace create "IP_HISTORY_KV"
 ```
-### 3. 部署步骤
+# 3. 部署步骤
+```
 
-1. 将worker.js文件内容复制到Cloudflare Workers编辑器
-2. 在Workers设置中绑定KV命名空间，名称为`IP_HISTORY_KV`
-3. 发布Worker
+ 1. 将worker.js文件内容复制到Cloudflare Workers编辑器
+ 2. 在Workers设置中绑定KV命名空间，名称为`IP_HISTORY_KV`
+ 3. 发布Worker
+ 4. 访问应用
+  部署完成后，访问你的Worker域名即可使用。
 
-### 4. 访问应用
-部署完成后，访问你的Worker域名即可使用。
+```
+      
 
 ## 📖 使用方法
 
@@ -203,4 +206,5 @@ worker.js
 - [Chart.js](https://www.chartjs.org/) - 数据可视化库
 - [Font Awesome](https://fontawesome.com/) - 图标库
 - 所有提供IP查询API的服务商
+
 
