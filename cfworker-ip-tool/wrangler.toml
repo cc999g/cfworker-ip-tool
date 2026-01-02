@@ -1,0 +1,20 @@
+name = "cfworker-ip-tool"
+main = "src/worker.js"
+compatibility_date = "2024-01-01"
+
+# KV命名空间绑定（需要先在Cloudflare创建）
+kv_namespaces = [
+  { binding = "IP_HISTORY_KV", id = "你的KV命名空间ID" }
+]
+
+# 环境变量（可选）
+[vars]
+VERSION = "1.0.0"
+
+# 路由配置（可选）
+routes = [
+  "你的域名/cfworker-ip-tool/*"
+]
+
+[dev]
+port = 8787
