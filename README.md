@@ -2,7 +2,7 @@
 
 一个基于Cloudflare Workers构建的双栈IP查询与测速工具，支持IPv4和IPv6地址检测、延迟测试和Speedtest网速测试。
 
-
+![界面截图](https://via.placeholder.com/800x400.png?text=双栈IP查询工具界面)
 
 ## ✨ 功能特性
 
