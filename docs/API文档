@@ -1,0 +1,24 @@
+```markdown
+# API文档
+
+## 1. IP信息查询
+**Endpoint**: `GET /api/ipinfo`
+
+**参数**:
+- `ip` (required): IP地址
+- `version` (optional): IP版本
+
+**响应示例**:
+```json
+{
+  "success": true,
+  "data": {
+    "ip": "203.0.113.1",
+    "ipVersion": "IPv4",
+    "country": "China",
+    "city": "Beijing",
+    "isp": "China Telecom",
+    "type": "Residential/住宅",
+    "isNative": true
+  }
+}
